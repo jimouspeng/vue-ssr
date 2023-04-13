@@ -19,3 +19,4 @@ vue-ssr-client-manifest.json 用于客户端插件
 })`
 
 #### render function or template not defined in component: anonymous
+动态路由未处理导致报错

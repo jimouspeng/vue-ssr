@@ -11,6 +11,7 @@ export default (context) => {
         router.push(context.url)
         router.onReady(() => {
             const matchedComponents = router.getMatchedComponents()
+            console.log(context.url, '---', matchedComponents)
             // 匹配不到的路由，执行 reject 函数，并返回 404
             if (!matchedComponents.length) {
                 return reject({ code: 404 })
