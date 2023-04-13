@@ -1,5 +1,5 @@
 <template>
-    <div>user-page</div>
+    <div>user-page页面</div>
 </template>
 <script>
 export default {}
